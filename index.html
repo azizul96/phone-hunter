@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div class="hero py-10 bg-[#F9F6E2]">
+            <div class="hero-content flex-col lg:flex-row-reverse gap-8">
+                <img src="./image/images.jpeg" class="sm:max-w-sm rounded-full " />
+                <div class="text-center space-y-7 ">
+                    <p>---SALE FEVER---</p>
+                    <h1 class="sm:text-2xl md:text-4xl font-bold">Purchase TK 200 or <br> above & get <span class="text-[#E527B2]">20%
+                            off</span></h1>
+                    <span class="text-[#111]">Use Promo Code</span>
+                    <button class="btn bg-[#E527B2] px-5 py-2 text-white">SELL200</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main  class="container mx-auto my-10 ">
+        <section class=" p-4  bg-gray-400 text-center rounded-lg mb-5">
+            <input class="px-10 py-3 rounded-lg" type="text" name="" id="search-field" placeholder="Search Here...">
+            <button onclick="searchHandle()" class="btn btn-accent text-white">Search</button>
+        </section>
+        <section>
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                
+            </div>
+
+            <div id="show-all-btn" class="mt-5 text-center hidden">
+                <button onclick="" class="btn btn-accent text-white">Show All</button>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
