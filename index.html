@@ -31,18 +31,34 @@
             <input class="px-10 py-3 rounded-lg" type="text" name="" id="search-field" placeholder="Search Here...">
             <button onclick="searchHandle()" class="btn btn-accent text-white">Search</button>
         </section>
+
+        
         <section>
+            <div id="loading-spinner" class="text-center my-10 hidden">
+                <span class="loading loading-spinner loading-lg"></span>
+            </div>
             <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 
             </div>
 
             <div id="show-all-btn" class="mt-5 text-center hidden">
-                <button onclick="" class="btn btn-accent text-white">Show All</button>
+                <button onclick="HandleShowAll()" class="btn btn-accent text-white">Show All</button>
             </div>
         </section>
     </main>
+    <!--  -->
+    <!-- Open the modal using ID.showModal() method -->
 
-
+    <dialog id="show_modal" class="modal modal-middle sm:modal-middle">
+    <form method="dialog" class="modal-box ">
+        
+        <div id="modal-container">
+            
+            
+        </div>
+    </form>
+    </dialog>
+    <!--  -->
 
     <script src="script.js"></script>
 </body>
